@@ -1,0 +1,10 @@
+MON PATRIMOINE — PWA V0.1
+
+Contenu : index.html, style.css, app.js, sw.js, manifest.webmanifest, icon.svg.
+
+Publier ces six fichiers ensemble à la racine d'un dépôt GitHub Pages (ou d'un hébergement HTTPS statique). Ne jamais y mettre de captures ou de données financières.
+Ouvrir ensuite l'adresse HTTPS depuis Safari sur iPhone, puis Partager > Sur l'écran d'accueil.
+
+Version de démonstration : saisie manuelle des comptes et dépenses. Le bouton de captures permet de sélectionner des images, mais ne les analyse pas encore et ne les conserve pas.
+Les données saisies sont enregistrées dans localStorage sur cet appareil. Exporter régulièrement une sauvegarde JSON et la conserver dans un emplacement choisi avec soin.
+Aucun code de suivi, aucune bibliothèque externe, aucune requête réseau applicative. La politique CSP bloque les connexions sortantes de l'application. Le chargement initial et les mises à jour de l'application exigent toutefois l'accès à l'hébergeur. Le navigateur et l'hébergeur peuvent conserver des métadonnées de connexion. Une PWA ne garantit pas une sécurité absolue.

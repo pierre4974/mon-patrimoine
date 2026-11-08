@@ -1,0 +1,1 @@
+{"name":"Mon Patrimoine","short_name":"Patrimoine","description":"Suivi de patrimoine personnel local","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#f4f8f7","theme_color":"#0d766e","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
